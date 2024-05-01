@@ -1,0 +1,216 @@
+(Q.21)What is inheritance?
+
+Ans:- inheritance is a concept of OOP (object oriented program) where one class can give their properties 
+to another class.
+
+=> Types of inheritance		a)Singel inheritance	
+				b)Multiple inheritance
+				c)Multilevel inheritance
+				d)hierarchical inheritance
+				e)Hybrid inheritance
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.22)Which inheritance is not supported by Dart? Why?What is
+advantage of inheritance?
+
+Ans:- Dart does not support Multiple inheritance.The reason is at the same time two class can not give the 
+behaviour and properties to there parent class.
+
+=> Advantage :- Code Reusability, Extensibility, Polymorphism, Maintenance and Updates
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.23)Difference between inheritance and encapsulation. Difference
+between inheritance and abstraction.
+
+Ans:-  Inheritance allows a class to inherit properties and behaviors from another class, 
+while encapsulation hides the internal state and implementation details of an object.
+
+=> Inheritance facilitates the creation of new classes based on existing class, 
+whereas abstraction  simplified models that capture essential features of a system.
+
+---------------------------------------------------------------------------------------------------------------
+
+(Q.24)Difference between inheritance and polymorphism
+
+Ans:-in polymorphism we can perform a task in multiple forms or ways  
+meanwhile Inheritance is derived from one class to another class.
+
+---------------------------------------------------------------------------------------------------------------
+
+(Q.25)Can we override static method in Dart?
+
+Ans:- No, We can't do that.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.26)Can we overload static method in Dart?
+
+Ans:- No, We Can't do that opertation.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.27)Can a class implement more than one interface?
+
+
+Ans:- Yes!
+
+Can a class extend more than one class in Dart?
+
+Ans:- No.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.28)Can an interface extend more than one interface in Dart?
+
+Ans:- No.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.29)What will happen if a class implements two interfaces and they both
+have a method with same name and signature?
+
+
+Ans:- The implementing class can implement both interface methods with a single concrete method.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.30)Can we pass an object of a subclass to a method expecting an object of the super class? 
+
+Ans:- yes 
+
+Are static members inherited to sub classes?
+=> No
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.31) What happens if the parent and the child class have a field with same identifier? 
+=>If both the parent class and the child class have a field with the same identifier,
+the field in the child class will hide the field in the parent class. 
+
+---------------------------------------------------------------------------------------------------------------
+
+(Q.32) How do you restrict a member of a class from inheriting by its sub classes?
+
+Ans:- you can restrict a member of a class from being inherited by its subclasses by using the final keyword.
+
+---------------------------------------------------------------------------------------------------------------
+
+(Q.33)How do you implement multiple inheritance in Dart?
+
+Ans:-While Dart does not support multiple class inheritance, you can use abstraction 
+to define a contract that classes must follow them. 
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.34)Can a class extend by itself in Dart?
+
+Ans:- No.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.35)How do you override a private method in Dart?
+
+Ans:- We can not do this operations in dart.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.36)When to overload a method in Dart and when to override it?
+
+Ans:- Overload a method in Dart when you want to provide multiple implementations with 
+different parameters.override it when you want to replace the implementation of a method 
+inherited from a superclass in a subclass.
+
+-------------------------------------------------------------------------------------------------------------
+
+(Q.37)What the order is of extends and implements keyword on Dart class
+declaration? 
+
+Ans:- First Extends and after that implemets
+
+------------------------------------------------------------------------------------------------------------
+
+(Q.38)How do you prevent overriding a Dart method without using the final
+modifier?
+
+Ans:- Using Super Keywords.
+
+-----------------------------------------------------------------------------------------------------------
+
+(Q.39)What are the rules of method overriding in Dart?
+
+Ans:-The return type should be the same as in the method present in the parentclass.
+
+-------------------------------------------------------------------------------------------------------------
+
+(Q.40)Difference between method overriding and overloading in Dart.
+
+
+Ans:-
+
+Method overloading:
+It is possible only in same class.
+Static methods can be overloaded.
+It has same method name in same class with different signatures.
+
+Method overriding
+It is possible only in derived classes.
+The method must be a non-virtual or static method for overriding.
+It helps us to overwrite or change the existing functionalities.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.41)What happens when a class implements two interfaces and both
+declare field (variable) with same name?
+
+Ans:- In Dart, if a class implements two interfaces, and both interfaces declare a field (variable) 
+with the same name, there is no conflict or issue. Dart allows a class to implement multiple interfaces 
+with fields of the same name without any problem.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.42)Can a subclass instance method override a superclass static method?
+
+Ans:- An instance method cannot override a static method
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.43)Can a subclass static method hide superclass instance method?
+
+Ans:-A subclass static method cannot hide superclass instance method.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.44)Can a superclass access subclass member?
+
+Ans:- No.
+
+--------------------------------------------------------------------------------------------------------------
+
+(Q.45)Difference between object oriented and object based language
+
+Ans:- 
+
+Object-Oriented languages:
+
+- Object-oriented languages fully support all major principles of OOP, 
+including encapsulation, inheritance, polymorphism, and abstraction.
+- they typically allow for the creation of classes, which serve as blueprints 
+for creating objects. Classes can have properties and methods associated with them.
+
+
+Object-Based languages:
+
+- Object-based languages provide some but not all features of OOP.
+- Typically, object-based languages allow for the creation of objects but
+may not have the concept of classes or inheritance.
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
